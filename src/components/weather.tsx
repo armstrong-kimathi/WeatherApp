@@ -19,9 +19,9 @@
           <h1 className="title has-text-centered" style={{ marginBottom: 50 }}>
             {Data.name}-{Data.sys.country}
           </h1>
-          <div>
-            <p className="heading">{Data.weather[0].description}</p>
-            <p className="title"><img src={`http://openweathermap.org/img/wn/${Data.weather[0].icon}.png`} alt=""/></p>
+          <div >
+            <p className="heading"  style={{ fontSize: "20px" }}>{Data.weather[0].description}</p>
+            <p className="title" ><img src={`http://openweathermap.org/img/wn/${Data.weather[0].icon}.png`} alt="" style={{ width: " 100px", height: "100px" }}/></p>
           </div>
          
           <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
